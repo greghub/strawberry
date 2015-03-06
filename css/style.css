@@ -117,7 +117,7 @@ section {
 	-webkit-border-radius: 1000px;
 	-ms-border-radius: 1000px;
 }
-.bg1 { background: url('../images/bg-1.jpg') no-repeat 50% 0; }
+.bg1 { background: url('../images/company3.png') no-repeat 50% 0; background-color: rgba(58, 25, 60, 1); background-size: 106%; }
 .bg2 { background: url('../images/bg-2.jpg') no-repeat 50% 0; }
 .bg3 { background: url('../images/bg-3.jpg') no-repeat 50% 0; }
 .bg4 { background: url('../images/bg-4.jpg') no-repeat 50% 0; }
@@ -244,17 +244,19 @@ h6 { font: 300 14px/20px "Lato", sans-serif; }
 	padding: 0;
 }
 .logo .brand {
-	width: 115px;
+	width: 235px;
 	height: 24px;
 	display: block;
 	background: url('../images/logo.png') no-repeat 0 0;
+    background-size: 100%;
 	text-indent: -10000px;
 }
 .logo-footer {
-	width: 136px;
-	height: 52px;
+	width: 276px;
+	height: 72px;
 	display: block;
 	background: url('../images/logo-footer.png') no-repeat 0 0;
+	background-size: 100%;
 	text-indent: -10000px;
 	margin: 0 auto;
 }
@@ -264,9 +266,9 @@ h6 { font: 300 14px/20px "Lato", sans-serif; }
 .navbar .brand {
 	color: #222a31;
 	padding: 0;
-	margin-top: 15px;
+	margin-top: 8px;
 	margin-left: 0;
-	height: 35px;
+	height: 54px;
 }
 .nav {
 	font: 700 16px/16px "Lato", sans-serif;
@@ -455,7 +457,6 @@ footer a {
 	height: 170px;
 	width: 170px;
 	color: #f3f6f8;
-	margin: 30px 0;
 }
 .what-we-do .full-rounded i {
 	position: relative;
@@ -465,9 +466,32 @@ footer a {
 .what-we-do h4 {
 	font: 700 20px/24px "Lato", sans-serif
 }
+.what-we-do h4 {
+  	margin: 6px 0px;
+}
 .what-we-do p {
 	padding: 0 30px;
 }
+.who-we-are-what-we-do {
+	margin: 20px 0;
+    text-align: left;
+}
+
+.what-we-do.starting {
+	box-shadow: 1px 0px 0px rgba(255,255,255,0.3);
+}
+.what-we-do.polishing {
+	box-shadow: -1px 0px 0px rgba(255,255,255,0.3);
+}
+
+.how-it-works {
+	margin-top: 24px; 
+}
+
+.founder {
+	float: left;
+}
+
 .percentage {
 	margin: 0 auto 30px;
 	height: 110px;
